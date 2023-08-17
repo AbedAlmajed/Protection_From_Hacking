@@ -1,0 +1,193 @@
+/* Created by Igor Penjivrag (www.colorlightstudio.com) - 12.11.2006 */
+
+
+body {
+	margin: auto;
+	background-repeat: no-repeat;
+	background:url("https://thumbs.dreamstime.com/z/old-wall-texture-cement-dark-black-gray-background-abstract-grey-color-design-light-white-gradient-171467777.jpg?w=992");
+	background-size: cover;
+	font-family: Verdana, Arial, sans-serif;
+     
+}
+
+p {
+	color: #000000;
+	line-height: 0.7erm;
+	margin: 11px 0 10px 2px;
+	padding: 2px;
+}
+
+h2 {
+	color: #ff0015;
+	margin:0px;
+	padding:0px;
+	font-size: 1em;
+}
+
+ul {
+	font-size: 10px;
+	margin:0;
+	padding:0;
+	list-style-image: url(img/bullet.gif);
+}
+
+a {
+	color: #3e4200;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+blockquote{
+	background: #ff2626;
+	color: #606060;
+	padding: 10px;
+}
+
+
+/**** Main Container ***/
+
+
+#wrap {
+       margin-left: auto;
+       margin-right: auto;
+       width: 90%;
+}
+
+
+/**** Top ***/
+
+p{padding-right:10% ;}
+#top {
+	position: fixed;
+	top:0%;
+	margin-left:-4.2rem ;
+	width: 100%;
+	height: 88px;
+	color: #000000;
+	background: #000 url(img/top_bg.gif);
+	overflow:hidden;
+}
+ul{	font-size: 0.75em;}
+h2
+{
+	font-size: 1em;
+
+
+}
+#top h2 {
+	
+	color: rgb(0, 0, 0);
+	letter-spacing: 3px;
+	font-size: 1.2em;
+	font-weight: normal;
+	position: relative;
+	margin: 0px;
+	top:33px;
+	display:block;
+	float:left;
+	background: url(img/logo.jpg) no-repeat;
+	padding-left: 40px;
+	
+}
+
+#top h2 a {
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+}
+
+#top h2 a:hover {
+        color: #ffd000;
+}
+
+
+/**** Main Menu ***/
+
+
+#menu {
+	display: block;
+	float:right;
+}
+
+#menu ul {
+	margin: 0;
+	list-style: none;
+}
+
+#menu li {
+	display: block;
+	float: left;
+	white-space: nowrap;
+}
+
+#menu li a {
+	display: block;
+	padding: 55px 20px 12px 20px;
+	text-decoration: none;
+	color: #000000;
+}
+
+* html #menu a {width:1%;}
+
+
+#menu li a.current {
+	letter-spacing: 1px;
+	color: rgb(226, 226, 226);
+}
+
+#menu li a.current:hover {
+	color: #fff;
+}
+
+
+/**** Content Container ***/
+
+
+#content {
+	width: 100%;
+	margin-right: 5erm;
+	margin-top:30px;
+}
+
+#content h2 {
+	
+	padding: 10px 0 10px 0;
+}
+
+
+/**** Content ***/
+
+
+/**** Sidebar ***/
+
+
+
+
+/**** Clear Div ***/
+
+
+#clear {
+	display: block;
+	clear: both;
+	width: 100%;
+	height:1px;
+	overflow:hidden;
+}
+
+
+/**** Footer ***/
+
+
+#footer {
+        margin: 40px auto 0 auto;
+	text-align: center;
+	border-top: dotted 1px gray;
+	padding: 20px 0 20px 0;
+	width: 70%;
+}
+
+#footer p {
+	margin: 0px;
+	padding: 0;
+}
